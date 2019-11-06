@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login</title>
+</head>
+<body>
+    
+    <form action="/users/center" method="post">
+        username: <input type="text" name="username" id="username"><br>
+        password: <input type="text" name="password" id="password"><br>
+        <input type="submit" value="submit">
+    </form>
+
+    <h1>----------------------</h1>
+
+    <form action="/users/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="file1"><br>
+        <!-- <input type="file" name="file" id="file2"><br>
+        <input type="file" name="file" id="file3"><br>         -->
+        <input type="submit" value="submit">
+    
+    </form>
+
+</body>
+</html>
